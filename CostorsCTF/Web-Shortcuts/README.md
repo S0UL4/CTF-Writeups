@@ -8,7 +8,7 @@ Author: icinta
 ```
 Navigating to the web site and Here we can upload .go files so as the title of the chall indicates Shortcuts ! i figured out that when u upload a file  the
 server will try to execute this command ```go run your_file.go```  So i tried to upload my go file to see if i can run some commands to get the flag location and read it ! 
-well first i uploaded a reverse shell but the admin directly deleted it and updated the firewall XDDD so i uploaded this code now as k.go and k 
+well first i uploaded a reverse shell but the admin directly deleted it and updated the firewall :laughing: :laughing: so i uploaded this code now as k.go and k 
 ``` 
 package main
 
@@ -33,4 +33,4 @@ it works ! perfect ! now discovering the we have a Jeff Directory in /home/ , i 
 ```
 out, err := exec.Command("cat", "/home/jeff/flag.txt").Output()
 ```
-And yes ! we got Our  flag :D 
+And yes ! we got Our  flag  :innocent:	
